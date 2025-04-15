@@ -6,32 +6,34 @@ first_name = "Dilakshan"
 food = "Pizza"
 email = "dilakshan@gmail.com"
 
-print(first_name)
-print("first_name")
-print(f"Hello {first_name}")
-print(f"You like {food}")
-print(f"Your email is {email}")
-
 #Integers
 age = 25
 quantity = 3
 num_of_students = 30
 
-print(f"Your are {age} years old")
-print(f"You are buying {quantity} items")
-print(f"Your class has {num_of_students} students")
-
 #Float
 price = 10.99
 gpa = 3.99
 distance = 5.5
-print(f"The price us ${price}")
-print(f"Your gpa is {gpa}")
-print(f"You ran {distance}km")
 
 #Boolean
 is_student = True
 print(f"Are you a Student?: {is_student}")
+
+print(first_name)
+print("first_name")
+
+print(f"Hello {first_name}")
+print(f"You like {food}")
+print(f"Your email is {email}")
+
+print(f"Your are {age} years old")
+print(f"You are buying {quantity} items")
+print(f"Your class has {num_of_students} students")
+
+print(f"The price us ${price}")
+print(f"Your gpa is {gpa}")
+print(f"You ran {distance}km")
 
 if is_student:
     print("You are a Student")
